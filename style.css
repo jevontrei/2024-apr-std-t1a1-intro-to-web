@@ -31,8 +31,8 @@ ul {
 }
 
 li {
-  color: red;
-  background-color: tan;
+  color: purple;
+  background-color: yellow;
 }
 
 li:nth-child(2n) {
