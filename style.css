@@ -1,8 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   color: cornflowerblue;
   background-color: green;
 }
 
-h1 {
-  color: #5ccbe4;
+h2 {
+  color: #d71111;
+  background-color: darkseagreen;
+}
+
+/* article > p {
+  font-size: 25px;
+} */
+
+.article_p {
+  font-size: 1.5rem;
+}
+
+#footer_p {
+  color: yellow;
+  background-color: black;
+}
+
+ul {
+  background-color: tan;
+}
+
+li {
+  color: red;
+  background-color: tan;
+}
+
+li:nth-child(2n) {
+  color: black;
+  background-color: darkseagreen;
+}
+
+img {
+  /* max-width: 50vw; */
+  height: 10%;
+  /* how does height work? vh? */
 }
